@@ -3,8 +3,8 @@ title: "Linux路径名查找过程分析"
 date: 2020-04-29T11:46:01+08:00
 author: "崔鹏程"
 keywords: ["路径名查找"]
-categories : ["路径名查找"]
-banner : "img/blogimg/default.png"
+categories : ["文件系统"]
+banner : "img/blogimg/check_path.jpg"
 summary : "分析了通过路径名查到到dentry的过程"
 ---
 文件系统很多操作都会涉及到路径名查找的过程，这几天把这个过程结合源码和搜集的资料大体过了一遍。
